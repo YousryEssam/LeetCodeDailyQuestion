@@ -9,9 +9,6 @@ namespace LeetCodeDailyQuestion.DailyQuestion
     public class MinimumIndexOfValidSplit
     {
         // 2780 
-    }
-    public class Solution
-    {
         public int MinimumIndex(IList<int> nums)
         {
             int idx = 0, MinIdx = -1;
@@ -19,10 +16,11 @@ namespace LeetCodeDailyQuestion.DailyQuestion
             int NonDominantElementCnt = 0;
             int dominantElement = -1, cnt = 0;
 
-            foreach (int i in nums) {
-                if (i != dominantElement) 
+            foreach (int i in nums)
+            {
+                if (i != dominantElement)
                 {
-                    if(cnt > 0 ) cnt--;
+                    if (cnt > 0) cnt--;
                     else
                     {
                         cnt++;
@@ -33,15 +31,16 @@ namespace LeetCodeDailyQuestion.DailyQuestion
             }
 
 
-            foreach (int i in nums) {
+            foreach (int i in nums)
+            {
 
-                _= (i == dominantElement) ?
+                _ = (i == dominantElement) ?
                     DominantElementCnt++ : NonDominantElementCnt++;
-                if (DominantElementCnt > NonDominantElementCnt && MinIdx == -1) 
+                if (DominantElementCnt > NonDominantElementCnt && MinIdx == -1)
                     MinIdx = idx;
                 idx++;
             }
-            if (DominantElementCnt - NonDominantElementCnt > 1) 
+            if (DominantElementCnt - NonDominantElementCnt > 1)
                 return MinIdx;
             return -1;
         }
