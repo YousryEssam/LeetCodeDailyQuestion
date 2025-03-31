@@ -8,7 +8,7 @@ namespace LeetCodeDailyQuestion.DailyQuestion
 {
     class PutMarblesInBags
     {
-        // Day 10-3-2025 problem 2551. Put Marbles in Bags
+        // Day 31-3-2025 problem 2551. Put Marbles in Bags
 
         public long PutMarbles(int[] weights, int k)
         {
