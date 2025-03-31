@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCodeDailyQuestion.DailyQuestion
+namespace LeetCodeDailyQuestion.MiscellaneousProblems
 {
     // This Class have Miscellaneous problems 
     class Solution
