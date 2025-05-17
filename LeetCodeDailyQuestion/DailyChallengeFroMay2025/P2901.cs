@@ -4,8 +4,7 @@
     {
         // 2901. Longest Unequal Adjacent Groups Subsequence II
         // 16-5-2025
-        public IList<string> GetWordsInLongestSubsequence(string[] words,
-                                                             int[] groups)
+        public IList<string> GetWordsInLongestSubsequence(string[] words, int[] groups)
         {
             int n = groups.Length;
             int[] dp = new int[n];
