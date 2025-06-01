@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DailyChallengeForJune2025\" />
-  </ItemGroup>
-
 </Project>
