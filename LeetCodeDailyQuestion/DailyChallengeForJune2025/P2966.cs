@@ -1,6 +1,4 @@
-﻿using System.Formats.Asn1;
-
-namespace LeetCodeDailyQuestion.DailyChallengeForJune2025
+﻿namespace LeetCodeDailyQuestion.DailyChallengeForJune2025
 {
     internal class P2966
     {
@@ -33,7 +31,7 @@ namespace LeetCodeDailyQuestion.DailyChallengeForJune2025
             for (int i = 0; i < numOfArrays; i++)
             {
                 result[i] = new int[3];
-                for(int j = 0; j < 3; j ++)
+                for (int j = 0; j < 3; j++)
                 {
                     result[i][j] = nums[idx++];
                 }
