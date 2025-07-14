@@ -1,5 +1,6 @@
 ﻿global using LeetCodeDailyQuestion.Reference;
 global using LeetCodeDailyQuestion.DailyQuestion;
+global using LeetCodeDailyQuestion.DataStructures;
 global using LeetCodeDailyQuestion.MiscellaneousProblems;
 global using LeetCodeDailyQuestion.DailyQuestionApril2025;
 global using LeetCodeDailyQuestion.DailyChallengeFroMay2025;
